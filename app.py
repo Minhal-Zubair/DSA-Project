@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Load the model from the .keras file
-model = tf.keras.models.load_model(r'my_model).keras')
+model = tf.keras.models.load_model(r'my_model.keras')
 
 # Define the image size to which the uploaded image will be resized
 IMAGE_SIZE = 256
